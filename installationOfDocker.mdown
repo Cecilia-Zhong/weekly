@@ -1,0 +1,207 @@
+[🐳 official docker](https://docs.docker.com/mac/) 🔗 
+or 🐳   website:  🔗 https://docs.docker.com/mac/
+
+> 🐳 docker as the image container to get and load the image from the internet or local, then save them into the docker in the docker. 
+> 😆 for me, it is the database for image :P 
+
+💻 My laptop is: 🍎 Mac air -- OS X EL Capitan -- Version 10.11.4
+
+![official website](http://upload-images.jianshu.io/upload_images/149762-b10cf9812245e7b8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+If you see this picture, that means you are on the right track 
+If you are the other version or other system, please 🖱️ click the orange text for "Linux" and "Windows" on the web 
+
+
+
+![just click continue](http://upload-images.jianshu.io/upload_images/149762-ddf63904cf7fc225.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+Then install the program and 🖱️ click "continue" and then 🖱️ click "finish"
+
+
+
+![Click Terminal](http://upload-images.jianshu.io/upload_images/149762-6d3f990a6cabd287.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
+--- 
+
+Once you finish the installation, find your launchpad or open the "Finder" then find this image from the "application"
+🖱️ click the left whale terminal "Docker quic...art Terminal"
+
+
+![memeda  🐳 ](http://upload-images.jianshu.io/upload_images/149762-aa88eaf81ebe509d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+As this window is open, if you didn't see the text above, please wait a min (or more than a minute) 🐳  whale may takes some time to pass by your laptop 
+🐳  。。 🐳 。。  🐳 。。  🐳 。。  🐳 。。  🐳  。。 
+
+
+
+
+![finish](http://upload-images.jianshu.io/upload_images/149762-b87b636894d5c5c7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+See? the whale is coming :) 🐳  
+
+⌨️ enter the code below: 
+    docker run hello-world
+
+
+![🐳  docker run hello-world](http://upload-images.jianshu.io/upload_images/149762-00b60762c1338b01.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+⌨️ try again:P 
+
+    docker run hello-world
+![let us start!](http://upload-images.jianshu.io/upload_images/149762-953e513d2287d9ac.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+---
+
+Learn about the image and Container: 
+
+    docker run hello-world 
+✏ docker: name of the program 
+✏ run: sub-comment; create and run the system "docker"
+✏ hello-world: tell docker which image you prefer to put into the containers 
+
+
+![https://docs.docker.com/engine/userguide/](http://upload-images.jianshu.io/upload_images/149762-df2d5df571fea1d0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+🔗 [user guide](https://docs.docker.com/engine/userguide/)
+
+--- 
+
+
+[🐳 hub](https://hub.docker.com/?utm_source=getting_started_guide&utm_medium=embedded_MacOSX&utm_campaign=find_whalesay)
+
+🖱️ find the search from the right top on the page 
+
+![hub](http://upload-images.jianshu.io/upload_images/149762-434a25c677607041.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
+![Here is the box you need find ](http://upload-images.jianshu.io/upload_images/149762-0754874c14c46b36.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![whalesay](http://upload-images.jianshu.io/upload_images/149762-9d622072fc622e76.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+⬆️ enter the text below on the search box as above then 🖱️ click enter/return 
+    whalesay
+
+
+![resource page ](http://upload-images.jianshu.io/upload_images/149762-9cb7be3783ce9122.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+[link](https://hub.docker.com/search/?isAutomated=0&isOfficial=0&page=1&pullCount=0&q=whalesay&starCount=0)
+
+![Find this row and select it](http://upload-images.jianshu.io/upload_images/149762-296a615e82a99e4f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![https://hub.docker.com/r/docker/whalesay/](http://upload-images.jianshu.io/upload_images/149762-0c70f32a88e212d6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+From this page, you can find the way to help you load the image from the docker, there are thousands of images on the docker include some large company such as IBM, Google and other else. As you enter the web page, for example the whalesay, you can see the "how to use this image" for helping using the image in the terminal 
+
+so... 
+here is the code you need to enter to get the whalesay image (i am really confused what the expression the whale will say, let us take a look by enter the below code first 😃 )
+
+$ means the start on the terminal, you don't need to enter it within the terminal, if you see in the other place. In here, i prefer delete it and give you the code you need to enter in the code mode. 
+
+    docker run docker/whalesay cowsay boo
+
+
+![whale say !! ](http://upload-images.jianshu.io/upload_images/149762-3c120faf7e006364.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+Here is what the terminal display after the "docker run docker/whalesay cowsay boo" 
+
+oh, actually, you can see the boo on the left top which is different from the whale before...
+
+..... it says:"boo"!!
+
+--- 
+
+Now, we try to see what kinds of images we have so far in our own containers: 
+
+    docker images
+
+
+![docker images](http://upload-images.jianshu.io/upload_images/149762-ee9576191cfdcd78.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+There is two packages of images in the docker in your local, after we making sure that the 🐳 "whalesay" package 
+
+    docker run docker/whalesay cowsay boo-boo
+
+
+![boo](http://upload-images.jianshu.io/upload_images/149762-91907999e7059b26.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+🐳 whale now is your guest and say boo to you 
+
+
+----
+
+### Step1: write a docker file 
+
+- open the whale terminal and let us start 😄
+
+      mkdir mydockerbuild
+
+mkdir (make directory): create a new directory 
+
+    cd mydockerbuild
+
+- open the new created directory, cd means open in the terminal as you seen before (cheatsheet is on the bottom of the page )
+
+    
+    touch Dockerfile
+
+create a Dockerfile in the directory 
+
+    ls Dockerfile
+
+read the Dockerfile 
+
+     open -e Dockerfile
+There is another window coming out, here is the text file you can enter the text 
+
+![text file window](http://upload-images.jianshu.io/upload_images/149762-aff0ef02b04d4283.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+Type the text below in the text file : 
+
+      FROM docker/whalesay:latest
+
+- FROM: the keyword to tell where does the image coming from and execute the action the image after  from 
+
+![enter the text](http://upload-images.jianshu.io/upload_images/149762-10efb547e2f0ef9c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+    RUN apt-get -y update && apt-get install -y fortunes
+
+    CMD /user/games/fortune -a | cowsay
+
+
+![whole text](http://upload-images.jianshu.io/upload_images/149762-b423e5e0cc1f27d9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+then use the File>save or command -S to save the file 
+
+
+![run in terminal](http://upload-images.jianshu.io/upload_images/149762-c8274ef47f13713f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+As you run in the terminal, you can see the text was shown. 
+
+
+
+### Step 2: Build an image from your Dockerfile 
+
+    cat Dockerfile
+
+cat: it is not the cat 🐱 , but the action of "CATCH" miao~~
+    
+    docker build -t docker-whale .
+
+
+![successful built ](http://upload-images.jianshu.io/upload_images/149762-0e4449cf88e9fea3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+--- 
+
+### learn about the build process
+
+https://docs.docker.com/mac/step_four/
+
+
+
+
+----
+
+Extra resources: 
+1. terminal cheat sheet 
+
+![terminal.png](http://upload-images.jianshu.io/upload_images/149762-9ebc02f0f1a85b86.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
