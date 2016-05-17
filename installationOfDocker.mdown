@@ -1,6 +1,15 @@
 [🐳 official docker](https://docs.docker.com/mac/) 🔗 
 or 🐳   website:  🔗 https://docs.docker.com/mac/
 
+
+## ""Index"" 
+#### Start 
+#### Step1: write a docker file
+#### Step 2: Build an image from your Dockerfile
+#### learn about the build process
+
+### Start 
+
 > 🐳 docker as the image container to get and load the image from the internet or local, then save them into the docker in the docker. 
 > 😆 for me, it is the database for image :P 
 
